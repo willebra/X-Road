@@ -268,3 +268,5 @@ license_choices:
       choice: "BSD-3-Clause"
     - given: "GPL-2.0-only OR CDDL-1.1"
       choice: "CDDL-1.1"
+    - given: "MIT OR GPL-1.0-or-later"
+      choice: "MIT"
