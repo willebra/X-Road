@@ -259,6 +259,18 @@ resolutions:
     - message: ".*free-restricted license LicenseRef-scancode-ubuntu-font-1.0 in NPM:@fontsource:open-sans.*"
       reason: "LICENSE_ACQUIRED_EXCEPTION"
       comment: "The files meant by this license hit are not in use in X-Road."
+    - message: "free-restricted license LicenseRef-scancode-ecma-documentation in Maven:org.apache.cxf.*"
+      reason: "NOT_MODIFIED_EXCEPTION"
+      comment: "The LicenseRef-scancode-ecma-documentation license allows redistributing without modifications. As long as the files licensed with the said license are redistributed without modifications, the condition is satisfied."
+    - message: "free-restricted license Bitstream-Vera in Maven:org.jetbrains.kotlin:kotlin-reflect:1.7.22."
+      reason: "NOT_MODIFIED_EXCEPTION"
+      comment: "The Bitstream-Vera license allows redistributing without modifications, and requires marking of modifications in a certain way. As long as the files licensed with the said license are redistributed without modifications, the condition is satisfied."
+    - message: "proprietary-free license LicenseRef-scancode-efsl-1.0 in Maven:jakarta.*"
+      reason: "NOT_MODIFIED_EXCEPTION"
+      comment: "The LicenseRef-scancode-efsl-1.0 allows redistributing without modifications. As long as the files licensed with the said license are redistributed without modifications, the condition is satisfied."
+    - message: "proprietary-free license LicenseRef-scancode-sun-jsr-spec-04-2006 in Maven.*"
+      reason: "NOT_MODIFIED_EXCEPTION"
+      comment: "The LicenseRef-scancode-sun-jsr-spec-04-2006 allows redistributing without modifications. As long as the files licensed with the said license are redistributed without modifications, the condition is satisfied."
 
 license_choices:
   repository_license_choices:
