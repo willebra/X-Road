@@ -283,6 +283,12 @@ resolutions:
     - message: "proprietary-free license LicenseRef-scancode-sun-sdk-spec-1.1 in Maven:javax.xml.bind:jaxb-api:2.3.1."
       reason: "LICENSE_ACQUIRED_EXCEPTION"
       comment: "The Streaming API for XML (JSR-173) for Java (TM) Specification is under a limited license from BEA Systems Inc - different from the license stated in the message above - and requires that only compliant and test framework passing implementations are distributed. As this spcification is not implemented at all, the license conditions are satisfied."
+    - message: "property:advertising-clause license LicenseRef-scancode-rsa-md4 in PNPM:@niis:workspace-root:1.0.0."
+      reason: "LICENSE_ACQUIRED_EXCEPTION"
+      comment: "The LicenseRef-scancode-rsa-md4 in src/libs/iaikPkcs11Wrapper.AUTHORS is taken into account, and therefore the license conditions are satisfied."
+    - message: "commercial license LicenseRef-scancode-proprietary-license in Maven:org.apache.commons:commons-compress:1.26.0."
+      reason: "LICENSE_ACQUIRED_EXCEPTION"
+      comment: "This PKWare technology is not in use, therefore license is sufficient."
 
 license_choices:
   repository_license_choices:
