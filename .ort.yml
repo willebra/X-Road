@@ -292,6 +292,9 @@ resolutions:
     - message: "commercial license LicenseRef-scancode-proprietary-license in Maven:org.apache.commons:commons-compress:1.26.0."
       reason: "LICENSE_ACQUIRED_EXCEPTION"
       comment: "This PKWare technology is not in use, therefore license is sufficient."
+    - message: "proprietary-free license LicenseRef-doubleopen-jsr-356-websocket-spec in Maven:org.apache.cxf:cxf-rt.*"
+      reason: "LICENSE_ACQUIRED_EXCEPTION"
+      comment: "The Java API for Websocket (JSR-356) Specification is under a limited license from Oracle - as these files are not modified the implementation should satisfy the requirements for a compliant implementation. Therefore the license conditions are satisfied."
 
 license_choices:
   repository_license_choices:
