@@ -295,6 +295,9 @@ resolutions:
     - message: "proprietary-free license LicenseRef-doubleopen-jsr-356-websocket-spec in Maven:org.apache.cxf:cxf-rt.*"
       reason: "LICENSE_ACQUIRED_EXCEPTION"
       comment: "The Java API for Websocket (JSR-356) Specification is under a limited license from Oracle - as these files are not modified the implementation should satisfy the requirements for a compliant implementation. Therefore the license conditions are satisfied."
+    - message: "commercial license LicenseRef-doubleopen-apple-xcode-sdk in Maven:org.jetbrains.kotlin:kotlin.*"
+      reason: "LICENSE_ACQUIRED_EXCEPTION"
+      comment: "The Apple SDK is not used, and no related technology is distributed, therefore the license is sufficient."
 
 license_choices:
   repository_license_choices:
