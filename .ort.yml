@@ -298,6 +298,9 @@ resolutions:
     - message: "commercial license LicenseRef-doubleopen-apple-xcode-sdk in Maven:org.jetbrains.kotlin:kotlin.*"
       reason: "LICENSE_ACQUIRED_EXCEPTION"
       comment: "The Apple SDK is not used, and no related technology is distributed, therefore the license is sufficient."
+    - message: "commercial license LicenseRef-scancode-proprietary-license in Maven:javax.xml.bind:jaxb-api:2.3.1."
+      reason: "LICENSE_ACQUIRED_EXCEPTION"
+      comment: "The Streaming API for XML (JSR-173) Specification is under a limited license from BEA Systems - as these files are not modified the implementation should satisfy the requirements for a compliant implementation. Therefore the license conditions are satisfied."
 
 license_choices:
   repository_license_choices:
